@@ -11,17 +11,17 @@ return {
       desc = "Find Plugin File",
     },
   },
-  config = function()
-    require("telescope").load_extension("fzf")
-  end,
-  opts = {
-    defaults = {
-      layout_strategy = "horizontal",
-      layout_config = { prompt_position = "top" },
-      sorting_strategy = "ascending",
-      winblend = 0,
-    },
-  },
+  -- config = function()
+  --   require("telescope").load_extension("fzf")
+  -- end,
+  -- opts = {
+  --   defaults = {
+  --     layout_strategy = "horizontal",
+  --     layout_config = { prompt_position = "top" },
+  --     sorting_strategy = "ascending",
+  --     winblend = 0,
+  --   },
+  -- },
 }
 -- Exemplo
 -- return {
